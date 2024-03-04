@@ -10,6 +10,6 @@ def login(request):
 def signup(requests):
     return Response({})
 
-@api_view(['POST'])
+@api_view(['GET'])
 def test_token(requests):
     return Response({})
